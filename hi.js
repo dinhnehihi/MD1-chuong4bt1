@@ -1,13 +1,13 @@
 let inputYear = prompt('Nhập năm: ');
 let inputMonth = prompt('Nhập tháng: ');
 let inputDate = prompt('Nhập ngày: ');
-let Year = parseInt(inputYear);
-let Month = parseInt(inputMonth);
-let Date = parseInt(inputDate);
-if(Date == 1 || Date == 2 || Date == 3 || Date == 4 || Date == 5 || Date == 6 || Date == 7 || Date == 8 || Date == 9) {
-  Date = "0" + Date;
+let year = parseInt(inputYear);
+let month = parseInt(inputMonth);
+let date = parseInt(inputDate);
+if(date == 1 || date == 2 || date == 3 || date == 4 || date == 5 || date == 6 || date == 7 || date == 8 || date == 9) {
+  date = "0" + date;
 }
-if(Month == 1 || Month == 2 || Month == 3 || Month == 4 || Month == 5 || Month == 6 || Month == 7 || Month == 8 || Month == 9) {
-  Month = "0" + Month;
+if(month == 1 || month == 2 || month == 3 || month == 4 || month == 5 || month == 6 || month == 7 || month == 8 || month == 9) {
+  month = "0" + month;
 }
-document.write('Hôm nay là: ' + Date + "-" + Month + "-" + Year);
+document.write('Hôm nay là: ' + date + "-" + month + "-" + year);
